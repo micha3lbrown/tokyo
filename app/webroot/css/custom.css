@@ -1,0 +1,56 @@
+/*
+Styles for Little Tokyo
+By: Michael Brown
+*/
+body {
+  background: #E7E7E7 url('/little/app/webroot/img/washi.png') repeat; }
+
+.carousel-inner > .item > img {
+  margin: 0 auto; }
+
+nav {
+  background: #FFF;
+  border-top: 2px #D60065 solid; }
+  nav .container #nav-main {
+    background-color: #FFF; }
+    nav .container #nav-main li a {
+      font-weight: bold;
+      padding: 35px; }
+    nav .container #nav-main li a:hover {
+      background-color: #D60065;
+      color: #FFF;
+      padding: 35px; }
+  nav .container #logo {
+    height: 90px;
+    padding: 0px; }
+
+.nav-top {
+  margin-top: 80px; }
+
+#homepageCarousel {
+  padding: 25px 0; }
+
+.opaque {
+  background-color: rgba(55, 55, 55, 0.45); }
+
+.mtop {
+  margin-top: 30px; }
+
+.centerAbs {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0; }
+
+h1 {
+  color: pink; }
+
+#menuJpg {
+  width: 100% !important; }
+  #menuJpg .b-page {
+    width: 50%;
+    height: auto; }
+    #menuJpg .b-page .imgFull {
+      max-width: 100%; }

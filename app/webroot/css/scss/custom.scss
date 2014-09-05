@@ -1,0 +1,99 @@
+/*
+Styles for Little Tokyo
+By: Michael Brown
+*/
+$neongreen : #3DFF02;
+$yellow :#E8DD0D;
+$light-orange :#FFB10E;
+$orange :#E85916;
+$hotpink : #FF114F;
+$grey : #E7E7E7;
+$white: #FFF;
+// Japan Pop
+
+$blue : #3881FF;
+$orange :#FF5830;
+$yellow :#FFEC00;
+$pink :#D60065;
+$green : #1DBD33;
+
+// Universal
+body{
+	background: $grey url('/little/app/webroot/img/washi.png') repeat;
+}
+
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+
+}
+
+//Main Navigation
+nav{ 
+	background: $white; 
+	border-top:2px $pink solid;
+	.container{
+		// background-color: $grey;
+		#nav-main{
+			background-color: $white;
+			// border-top:2px $hotpink solid;
+			
+			li{
+				
+				a{
+					font-weight: bold;
+					padding:35px;
+				}
+				a:hover{
+					background-color:$pink;
+					color:$white;
+					padding:35px;
+				}
+			}
+		}
+		#logo{
+		// @extend .centerAbs;
+		height:90px;
+		padding:0px;
+		// border:2px solid black;
+		}
+
+	}
+}
+// Universal
+.nav-top{
+	margin-top:80px;
+}
+#homepageCarousel{
+	padding:25px 0;
+}
+.opaque{
+	background-color: rgba(55,55,55,.45);
+}
+//GLOBAL SPACEING 
+.mtop{
+	margin-top: 30px;
+}
+.centerAbs{
+	position:absolute;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+h1{
+	color:pink;
+}
+// MENU
+#menuJpg{
+	width:100% !important;
+	// height:auto !important;
+	.b-page{
+		width:50%;
+		height:auto;
+		.imgFull{
+			max-width: 100%;
+		}
+	}
+}
