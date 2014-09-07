@@ -48,9 +48,12 @@ h1 {
   color: pink; }
 
 #menuJpg {
-  width: 100% !important; }
+  width: 100%; }
   #menuJpg .b-page {
     width: 50%;
     height: auto; }
     #menuJpg .b-page .imgFull {
       max-width: 100%; }
+
+#footer {
+  background-color: black; }

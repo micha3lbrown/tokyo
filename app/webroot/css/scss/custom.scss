@@ -87,8 +87,8 @@ h1{
 }
 // MENU
 #menuJpg{
-	width:100% !important;
-	// height:auto !important;
+	width:100%;
+
 	.b-page{
 		width:50%;
 		height:auto;
@@ -96,4 +96,8 @@ h1{
 			max-width: 100%;
 		}
 	}
+}
+#footer{
+	background-color: black;
+	
 }

@@ -6,6 +6,7 @@ $(document).ready(function() {
 		$('#menuJpg').booklet({
 			closed: true, 
 			width: '100%',
+			height:800,
 			pagePadding : 0
 		});
 		// var closed = $("#menuJpg").booklet( "option", "closed" );
