@@ -19,24 +19,22 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 </div>
 </div>
-<div id="footer">
+<div id="footer" class="drop">
 	<div class="container padv50">
 		<div class="row">
 			<div class="col-sm-4">
-				
+				<ul>
+					<li><h3 class="uline">Contact Us</h3></li>
+					<li><h3>Here</h3></li>
+					<li><h3>Or Here</h3></li>
+				</ul>
 			</div>
 			<div class="col-sm-4">
 				
 			</div>
 			<div class="col-sm-4">
-				<?php echo $this->Html->link(
-							$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-							'http://www.cakephp.org/',
-							array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-						);
-					?>
-			</div>
-					
+
+			</div>					
 		</div>
 	</div>
 </div>

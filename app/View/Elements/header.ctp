@@ -46,7 +46,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 </head>
 <body>
-	<nav class="nav-top" role='navigation'>
+	<nav class="nav-top drop" role='navigation'>
 	  <div class='container'>
 	    <img class='navbar-brand' id='logo' src='app/webroot/img/WhiteLogo.jpg'>
 	      <a href='http://google.com'></a>

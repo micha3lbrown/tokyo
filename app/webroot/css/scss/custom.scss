@@ -2,13 +2,24 @@
 Styles for Little Tokyo
 By: Michael Brown
 */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,300,900,500,400);
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+h1,h2,h3,h4,h5{
+	font-family: Roboto;
+}
+p{
+	font-family: Muli;
+}
+
 $neongreen : #3DFF02;
 $yellow :#E8DD0D;
 $light-orange :#FFB10E;
 $orange :#E85916;
 $hotpink : #FF114F;
 $grey : #E7E7E7;
-$white: #FFF;
+$white : #FFF;
 // Japan Pop
 
 $blue : #3881FF;
@@ -17,21 +28,67 @@ $yellow :#FFEC00;
 $pink :#D60065;
 $green : #1DBD33;
 
+//Sheridan Helps
+$coral: #FF3939;
+$offwhite: #FFFFF8;
+$bturq: #1DFCFF;
+$dimturq: #18FBFF;
+
+@import "utils";
 // Universal
-body{
-	background: $grey url('/little/app/webroot/img/washi.png') repeat;
+$red0: rgba(162, 64, 68,.25);		/* Main Complement color */
+$red1: rgba(239,165,169,.75);
+$red2: rgba(196,104,109,1);
+$red3: rgba(129, 34, 39,1);
+$red4: rgba( 89,  8, 12,1);
+
+$num: 0;
+@each $color in ($red0, $red1, $red2, $red3, $red4) {
+    .red#{$num}-bg { background-color: $color; }
+    .red#{$num}-border { border-color: $color; }
+    $num: $num + 1;
 }
 
-
+body{
+	background: $grey url('/tokyo/img/washi.png') repeat;
+}
+.bg-circles{
+	background: $grey url('/tokyo/img/washi.png') repeat;
+}
+.bg-white{
+	background-color:$white;
+}
+.bg-pink{
+	background-color: $dimturq; 
+}
 .carousel-inner > .item > img {
     margin: 0 auto;
 
 }
 
-//Main Navigation
+/****************************************************************************************************
+******************************* THAT PANEL CONTENT **************************************************
+*****************************************************************************************************/
+.tab-content{
+	// background-color: rgba(0,0,0,.5);
+}
+.panel{
+
+	border-radius: 0 0 4px 4px;
+	ul{
+		list-style: none;
+	}
+}
+.panel-default{
+	border-top:none;
+}
+
+/****************************************************************************************************
+******************************* THAT Main Navigation ************************************************
+*****************************************************************************************************/
 nav{ 
 	background: $white; 
-	border-top:2px $pink solid;
+	//border-top:2px $pink solid;
 	.container{
 		// background-color: $grey;
 		#nav-main{
@@ -43,10 +100,13 @@ nav{
 				a{
 					font-weight: bold;
 					padding:35px;
+					color: black;
 				}
 				a:hover{
-					background-color:$pink;
-					color:$white;
+					background-color:$white;
+					//color:$dimturq;
+					border-top:2px solid $dimturq;
+					border-bottom:2px solid $dimturq;
 					padding:35px;
 				}
 			}
@@ -60,17 +120,30 @@ nav{
 
 	}
 }
-// Universal
 .nav-top{
 	margin-top:80px;
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	z-index:99;
+}
+.nav-top.navbar-fixed-top{
+	margin-top: 0;
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	z-index:999;
 }
 #homepageCarousel{
 	padding:25px 0;
 }
+
+/****************************************************************************************************
+******************************* THAT GLOBAL CONTENT *************************************************
+*****************************************************************************************************/
 .opaque{
 	background-color: rgba(55,55,55,.45);
 }
-//GLOBAL SPACEING 
 .mtop{
 	margin-top: 30px;
 }
@@ -83,7 +156,7 @@ nav{
 	right:0;
 }
 h1{
-	color:pink;
+	
 }
 // MENU
 #menuJpg{
@@ -100,4 +173,11 @@ h1{
 #footer{
 	background-color: black;
 	
+}
+/****************************************************************************************************
+******************************* THAT LOCATIONS PAGE *************************************************
+*****************************************************************************************************/
+#lt-map{
+	width:100%;
+	height:800px;
 }

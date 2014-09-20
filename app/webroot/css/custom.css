@@ -1,35 +1,319 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,300,900,500,400);
+@import url(http://fonts.googleapis.com/css?family=Muli);
 /*
 Styles for Little Tokyo
 By: Michael Brown
 */
+h1, h2, h3, h4, h5 {
+  font-family: Roboto; }
+
+p {
+  font-family: Muli; }
+
+.light-bg {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.drop {
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+  z-index: 99;
+  position: relative; }
+
+.drop-inset {
+  -webkit-box-shadow: inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35); }
+
+.leader {
+  display: inline-block;
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 7px 12px;
+  font-size: 63px;
+  color: #FFF; }
+
+.leader.small {
+  color: #FFF;
+  font-size: 20px; }
+
+.slid {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2; }
+
+.fixed {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1; }
+
+.padv50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.padh50 {
+  padding-right: 50px;
+  padding-left: 50px; }
+
+.pad50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.padt50 {
+  padding-top: 50px; }
+
+.padb50 {
+  padding-bottom: 50px; }
+
+.mv50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px; }
+
+.mh50 {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.padv25 {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.padh25 {
+  padding-right: 25px;
+  padding-left: 25px; }
+
+.pad25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.padt25 {
+  padding-top: 25px; }
+
+.padb25 {
+  padding-bottom: 25px; }
+
+.mv25 {
+  margin-top: 25px !important;
+  margin-bottom: 25px; }
+
+.mh25 {
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.padv15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.padh15 {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.pad15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.padt15 {
+  padding-top: 15px; }
+
+.padb15 {
+  padding-bottom: 15px; }
+
+.mv15 {
+  margin-top: 15px !important;
+  margin-bottom: 15px; }
+
+.mh15 {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.padv10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.padh10 {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.pad10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.padt10 {
+  padding-top: 10px; }
+
+.padb10 {
+  padding-bottom: 10px; }
+
+.mv10 {
+  margin-top: 10px !important;
+  margin-bottom: 10px; }
+
+.mh10 {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.padv3 {
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+.padh3 {
+  padding-right: 3px;
+  padding-left: 3px; }
+
+.pad3 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+.padt3 {
+  padding-top: 3px; }
+
+.padb3 {
+  padding-bottom: 3px; }
+
+.mv3 {
+  margin-top: 3px !important;
+  margin-bottom: 3px; }
+
+.mh3 {
+  margin-left: 3px;
+  margin-right: 3px; }
+
+.padv0 {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.padh0 {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.pad0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.padt0 {
+  padding-top: 0px; }
+
+.padb0 {
+  padding-bottom: 0px; }
+
+.mv0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px; }
+
+.mh0 {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+/* Main Complement color */
+.red0-bg {
+  background-color: rgba(162, 64, 68, 0.25); }
+
+.red0-border {
+  border-color: rgba(162, 64, 68, 0.25); }
+
+.red1-bg {
+  background-color: rgba(239, 165, 169, 0.75); }
+
+.red1-border {
+  border-color: rgba(239, 165, 169, 0.75); }
+
+.red2-bg {
+  background-color: #c4686d; }
+
+.red2-border {
+  border-color: #c4686d; }
+
+.red3-bg {
+  background-color: #812227; }
+
+.red3-border {
+  border-color: #812227; }
+
+.red4-bg {
+  background-color: #59080c; }
+
+.red4-border {
+  border-color: #59080c; }
+
 body {
-  background: #E7E7E7 url('/little/app/webroot/img/washi.png') repeat; }
+  background: #E7E7E7 url('/tokyo/img/washi.png') repeat; }
+
+.bg-circles {
+  background: #E7E7E7 url('/tokyo/img/washi.png') repeat; }
+
+.bg-white {
+  background-color: #FFF; }
+
+.bg-pink {
+  background-color: #18FBFF; }
 
 .carousel-inner > .item > img {
   margin: 0 auto; }
 
+/****************************************************************************************************
+******************************* THAT PANEL CONTENT **************************************************
+*****************************************************************************************************/
+.panel {
+  border-radius: 0 0 4px 4px; }
+  .panel ul {
+    list-style: none; }
+
+.panel-default {
+  border-top: none; }
+
+/****************************************************************************************************
+******************************* THAT Main Navigation ************************************************
+*****************************************************************************************************/
 nav {
-  background: #FFF;
-  border-top: 2px #D60065 solid; }
+  background: #FFF; }
   nav .container #nav-main {
     background-color: #FFF; }
     nav .container #nav-main li a {
       font-weight: bold;
-      padding: 35px; }
+      padding: 35px;
+      color: black; }
     nav .container #nav-main li a:hover {
-      background-color: #D60065;
-      color: #FFF;
+      background-color: #FFF;
+      border-top: 2px solid #18FBFF;
+      border-bottom: 2px solid #18FBFF;
       padding: 35px; }
   nav .container #logo {
     height: 90px;
     padding: 0px; }
 
 .nav-top {
-  margin-top: 80px; }
+  margin-top: 80px;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+  z-index: 99; }
+
+.nav-top.navbar-fixed-top {
+  margin-top: 0;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+  z-index: 999; }
 
 #homepageCarousel {
   padding: 25px 0; }
 
+/****************************************************************************************************
+******************************* THAT GLOBAL CONTENT *************************************************
+*****************************************************************************************************/
 .opaque {
   background-color: rgba(55, 55, 55, 0.45); }
 
@@ -44,9 +328,6 @@ nav {
   left: 0;
   right: 0; }
 
-h1 {
-  color: pink; }
-
 #menuJpg {
   width: 100%; }
   #menuJpg .b-page {
@@ -57,3 +338,10 @@ h1 {
 
 #footer {
   background-color: black; }
+
+/****************************************************************************************************
+******************************* THAT LOCATIONS PAGE *************************************************
+*****************************************************************************************************/
+#lt-map {
+  width: 100%;
+  height: 800px; }

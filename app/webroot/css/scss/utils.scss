@@ -1,0 +1,70 @@
+$white:#FFF;
+@mixin round-corners($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin round-corners-top($radius) {
+  -webkit-border-radius: $radius $radius 0 0;
+     -moz-border-radius: $radius $radius 0 0;
+      -ms-border-radius: $radius $radius 0 0;
+          border-radius: $radius $radius 0 0;
+}
+
+.light-bg{
+	background-color: rgba(0,0,0,.5);
+}
+.drop {
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+	z-index:99;
+	position: relative;
+	
+}
+
+.drop-inset {
+	-webkit-box-shadow: inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35);
+	box-shadow:         inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.leader {
+	display: inline-block;
+	background-color: rgba(54, 54, 54, 0.8);
+	padding:7px 12px;
+	font-size:63px;
+	color:$white;
+}
+.leader.small {
+	color:$white;
+	font-size:20px;
+}
+.slid {
+	position: relative;
+	min-height: 100%;
+	padding: 4em 0;
+	line-height: 1.6;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}
+.fixed { 
+	position: relative;
+	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 1;
+}
+
+$spacings: 50, 25, 15, 10, 3, 0;
+@each $amount in $spacings {
+	.padv#{$amount} {padding-top:$amount + px;padding-bottom:$amount + px;}
+	.padh#{$amount} {padding-right:$amount + px;padding-left:$amount + px;}
+	.pad#{$amount} {padding-top:$amount + px;padding-bottom:$amount + px;padding-left:$amount + px;padding-right:$amount + px;}
+	.padt#{$amount} {padding-top:$amount + px;}
+	.padb#{$amount} {padding-bottom:$amount + px;}
+	.mv#{$amount} {margin-top: $amount + px !important; margin-bottom: $amount + px;}
+	.mh#{$amount} {margin-left: $amount + px; margin-right: $amount + px;}
+}
