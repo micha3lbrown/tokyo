@@ -9,6 +9,9 @@
 /dist
 /tags
 *.mo
+/node_modules
+/vendors
+*.scssc
 
 # IDE and editor specific files #
 #################################
