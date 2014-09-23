@@ -251,17 +251,17 @@ p {
   border-color: #59080c; }
 
 body {
-  background-image: url('/tokyo/img/purple.jpg');
+  background-image: url('/img/purple.jpg');
   background-size: cover; }
 
 .bg-circles {
-  background: #E7E7E7 url('/tokyo/img/washi.png') repeat; }
+  background: #E7E7E7 url('/img/washi.png') repeat; }
 
 .bg-white {
   background-color: #FFF; }
 
 .bg-pink {
-  background-image: url('/tokyo/img/purple.jpg');
+  background-image: url('/img/purple.jpg');
   background-size: cover; }
 
 .bg-virgin {

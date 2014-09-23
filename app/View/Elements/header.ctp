@@ -62,16 +62,16 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	    <div class='collapse navbar-collapse pull-right' id='nav-main'>
 	      <ul class='nav navbar-nav'>
 	        <li>
-	          <a href='/tokyo/'>Home</a>
+	          <a href='/'>Home</a>
 	        </li>
 	        <li>
-	          <a href='/tokyo/menu'>Menu</a>
+	          <a href='/menu'>Menu</a>
 	        </li>
 	        <li>
-	          <a href='/tokyo/social'>Social</a>
+	          <a href='/social'>Social</a>
 	        </li>
 	        <li>
-	          <a href='/tokyo/locations'>Locations</a>
+	          <a href='/locations'>Locations</a>
 	        </li>
 	      </ul>
 	    </div>
