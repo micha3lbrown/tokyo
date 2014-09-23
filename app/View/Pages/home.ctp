@@ -6,7 +6,7 @@ endif;
 // echo $this->element('header');
 App::uses('Debugger', 'Utility');
 ?>
-<div class="container-fluid bg-circles">
+<div class="container-fluid bg-circles drop" style="z-index:100;">
  <div class='row opaque'>
     <div class='col-sm-12 drop'>
       <div class='carousel slide' data-ride='carousel' id='homepageCarousel'>
@@ -17,7 +17,8 @@ App::uses('Debugger', 'Utility');
         </ol>
         <div class='carousel-inner'>
           <div class='item active'>
-            <img alt='' src='img/image_2.png'>
+           <!--  <img alt='' src='img/image_2.png'> -->
+            <img alt='' src='http://placehold.it/960x400'>
             <div class='carousel-caption'>
               <h3>Just saying hello</h3>
             </div>
@@ -47,9 +48,9 @@ App::uses('Debugger', 'Utility');
 </div>
 <!-- //red2-bg -->
 <div class="bg-pink">
-  <div class="container bg-white">
+  <div class="container drop bg-white">
   	<div class="row padv50">
-      <div class="col-sm-8 col-sm-offset-2">
+      <div class="col-sm-8">
           
          <ul class="nav nav-tabs" role="tablist">
             <li class="active"><a href="#specials" role="tab" data-toggle="tab">Specials</a></li>
@@ -119,13 +120,13 @@ App::uses('Debugger', 'Utility');
       </div>
 
 
-<!--       <div class="col-sm-4">
+      <div class="col-sm-4">
          <a class="twitter-timeline"  href="https://twitter.com/LittleTokyo1"  data-widget-id="385932566923984897">Tweets by @LittleTokyo1</a>
           <div id="fb-root"></div>
-          <div class="fb-like-box" data-href="https://www.facebook.com/littletokyo1" data-width="500" data-height="450" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false">
+          <div class="fb-like-box" data-href="https://www.facebook.com/littletokyo1" data-width="360" data-height="450" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false">
           </div>
 
-      </div> -->
+      </div>
     </div>
   </div>
 </div>

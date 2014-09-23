@@ -50,7 +50,9 @@ $num: 0;
 }
 
 body{
-	background: $grey url('/tokyo/img/washi.png') repeat;
+	// background: $grey url('/tokyo/img/washi.png') repeat;
+	background-image: url('/tokyo/img/purple.jpg');
+	background-size: cover;
 }
 .bg-circles{
 	background: $grey url('/tokyo/img/washi.png') repeat;
@@ -59,7 +61,14 @@ body{
 	background-color:$white;
 }
 .bg-pink{
-	background-color: $dimturq; 
+	// background-color: $dimturq; 
+	background-image: url('/tokyo/img/purple.jpg');
+	background-size: cover;
+}
+.bg-virgin{
+	opacity: 1;
+	background-image: -webkit-linear-gradient(left, rgb(201, 255, 191), rgb(255, 175, 189));
+	background-color: rgb(255, 255, 255);
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
@@ -105,8 +114,8 @@ nav{
 				a:hover{
 					background-color:$white;
 					//color:$dimturq;
-					border-top:2px solid $dimturq;
-					border-bottom:2px solid $dimturq;
+					// border-top:2px solid $dimturq;
+					// border-bottom:2px solid $dimturq;
 					padding:35px;
 				}
 			}

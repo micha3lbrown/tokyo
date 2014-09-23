@@ -251,7 +251,8 @@ p {
   border-color: #59080c; }
 
 body {
-  background: #E7E7E7 url('/tokyo/img/washi.png') repeat; }
+  background-image: url('/tokyo/img/purple.jpg');
+  background-size: cover; }
 
 .bg-circles {
   background: #E7E7E7 url('/tokyo/img/washi.png') repeat; }
@@ -260,7 +261,13 @@ body {
   background-color: #FFF; }
 
 .bg-pink {
-  background-color: #18FBFF; }
+  background-image: url('/tokyo/img/purple.jpg');
+  background-size: cover; }
+
+.bg-virgin {
+  opacity: 1;
+  background-image: -webkit-linear-gradient(left, #c9ffbf, #ffafbd);
+  background-color: white; }
 
 .carousel-inner > .item > img {
   margin: 0 auto; }
@@ -289,8 +296,6 @@ nav {
       color: black; }
     nav .container #nav-main li a:hover {
       background-color: #FFF;
-      border-top: 2px solid #18FBFF;
-      border-bottom: 2px solid #18FBFF;
       padding: 35px; }
   nav .container #logo {
     height: 90px;
