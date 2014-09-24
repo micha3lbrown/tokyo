@@ -250,19 +250,24 @@ p {
 .red4-border {
   border-color: #59080c; }
 
-body {
-  background-image: url('/img/purple.jpg');
-  background-size: cover; }
+.main-bg, body, .bg-pink {
+  background: -webkit-linear-gradient(90deg, #c21500 10%, #ffc500 90%);
+  /* Chrome 10+, Saf5.1+ */
+  /* FF3.6+ */
+  /* IE10 */
+  /* Opera 11.10+ */
+  background: -webkit-linear-gradient(0deg, #c21500 10%, #ffc500 90%);
+  background: linear-gradient(90deg, #c21500 10%, #ffc500 90%);
+  /* W3C */ }
 
 .bg-circles {
-  background: #E7E7E7 url('/img/washi.png') repeat; }
+  background: #E7E7E7 url('/tokyo/img/washi.png') repeat; }
 
 .bg-white {
   background-color: #FFF; }
 
-.bg-pink {
-  background-image: url('/img/purple.jpg');
-  background-size: cover; }
+.bg-pink div.container {
+  margin-bottom: 10em; }
 
 .bg-virgin {
   opacity: 1;

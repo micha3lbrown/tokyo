@@ -48,22 +48,30 @@ $num: 0;
     .red#{$num}-border { border-color: $color; }
     $num: $num + 1;
 }
-
+.main-bg{
+	background: -webkit-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* Chrome 10+, Saf5.1+ */ 
+	background: -moz-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* FF3.6+ */
+	background: -ms-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* IE10 */ 
+	background: -o-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* Opera 11.10+ */ 
+	background: linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* W3C */
+}
 body{
 	// background: $grey url('/tokyo/img/washi.png') repeat;
-	background-image: url('/img/purple.jpg');
-	background-size: cover;
+	@extend .main-bg;
 }
 .bg-circles{
-	background: $grey url('/img/washi.png') repeat;
+	background: $grey url('/tokyo/img/washi.png') repeat;
 }
 .bg-white{
 	background-color:$white;
 }
 .bg-pink{
 	// background-color: $dimturq; 
-	background-image: url('/img/purple.jpg');
-	background-size: cover;
+	@extend .main-bg;
+
+	div.container{
+		margin-bottom: 10em;
+	}
 }
 .bg-virgin{
 	opacity: 1;
