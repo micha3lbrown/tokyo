@@ -8,8 +8,18 @@
 </div>
 <script type="text/javascript">
 	var locations =[ 
-    	['Little Tokyo on Leonard Ave.','35.341055','-80.177853', 2],
-    	['Tokyo Lounge', '35.373430', '-80.195943', 1] 
+    	[
+        '<strong>Little Tokyo on Leonard Ave.</strong><br>Hours: <br /> Sun-Thurs: 10am - 9pm, <br /> Fri & Sat: 10am - 9:30pm <br /> <a href="tel:7049852726"> (704)985-2726 </a>',
+        '35.341055',
+        '-80.177853',
+        2
+      ],
+      [
+        '<strong>Tokyo Lounge</strong><br /> Hours: <br /> Sun-Thurs: 10am - Midnight, <br /> Fri & Sat: 10am - 2am <br> <a href="tel:7049851692"> (704)985-1692 </a>', 
+        '35.373430', 
+        '-80.195943', 
+        1
+      ] 
 	];
 	var mapOptions = {
   		center: { lat: 35.3519883, lng: -80.1901338},
@@ -32,7 +42,8 @@
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
+        map: map,
+        height: 500
       });
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
