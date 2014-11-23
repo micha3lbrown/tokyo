@@ -20,7 +20,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -63,15 +63,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	      <a href='http://google.com'></a>
 	    </img>
 	    <div class='navbar-header'>
-	      <button class='navbar-toggle' data-target='#nav-main' data-toggle='collapse' type='button'>
+	      <button class='navbar-btn navbar-toggle collapsed' data-target='#nav-main' data-toggle='collapse' type='button'>
 	        <span class='sr-only'>Toggle navigation</span>
 	        <span class='icon-bar'></span>
 	        <span class='icon-bar'></span>
 	        <span class='icon-bar'></span>
 	      </button>
 	    </div>
-	    <div class='collapse navbar-collapse pull-right' id='nav-main'>
-	      <ul class='nav navbar-nav'>
+	    <div class='collapse navbar-collapse' id='nav-main'>
+	      <ul class='nav navbar-nav pull-left'>
 	        <li>
 	          <a href='/'>Home</a>
 	        </li>

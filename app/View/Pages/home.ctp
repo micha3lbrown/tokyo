@@ -20,21 +20,21 @@ App::uses('Debugger', 'Utility');
         </ol>
         <div style="height:auto;" class='carousel-inner'>
           <div class='item active'>
-            <img style="max-height:400px; width:auto;" alt='' src='/img/pano.png'>
+            <img alt='' src='/img/pano.png'>
             <div class='carousel-caption'>
               <h3>Little Tokyo near Walmart</h3>
             </div>
           </div>
           <div class='item'>
            <!--  <img alt='' src='img/image_2.png'> -->
-            <img alt='' style="max-height:400px; width:auto;" src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/s960x960/10818489_856151924416419_8623894306244354937_o.jpg'>
+            <img alt='' src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/s960x960/10818489_856151924416419_8623894306244354937_o.jpg'>
             <div class='carousel-caption'>
               <h3></h3>
             </div>
           </div>
           
           <div class='item'>
-            <img alt='' style="max-height:400px; width:auto;" src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10665860_857216954309916_8305468388082384048_n.jpg?oh=32f211e62c3c3bda7c268a456d522700&oe=551C94D9&__gda__=1427680353_2eef8856a2b14c443923a939bd803202'>
+            <img alt='' src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10665860_857216954309916_8305468388082384048_n.jpg?oh=32f211e62c3c3bda7c268a456d522700&oe=551C94D9&__gda__=1427680353_2eef8856a2b14c443923a939bd803202'>
             <div class='carousel-caption'>
               <h3></h3>
             </div>

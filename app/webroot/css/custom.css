@@ -315,6 +315,14 @@ nav {
 
 #homepageCarousel {
   padding: 25px 0; }
+  #homepageCarousel .item img {
+    height: 400px;
+    width: auto; }
+
+.navbar-toggle {
+  border: 1px solid black; }
+  .navbar-toggle .icon-bar {
+    background-color: black; }
 
 /****************************************************************************************************
 ******************************* THAT GLOBAL CONTENT *************************************************
