@@ -66,7 +66,7 @@ App::uses('Debugger', 'Utility');
             <div class="tab-pane active" id="specials">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <h2 class="uline">Specials</h2>
+                  <h2 class="uline">Specials @ Little Tokyo Lounge</h2>
                   <hr />
                   <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
