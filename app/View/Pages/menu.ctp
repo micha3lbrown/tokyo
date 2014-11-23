@@ -8,12 +8,9 @@ App::uses('Debugger', 'Utility');
 ?>
 
 </div>
-<div class="red1-bg">
-	<div class="container bg-white">
-		<div class="row">
-			<div class="col-sm-12 bg-white">
-				<h1>Welcome to our menu</h1>
-			</div>
+<div id="main">
+	<div class="container">
+		<div class="row padv50">
 			<div id="menuJpg" class="col-sm-12 slide">
 	<?
 				$menuImages = glob('img/menu/*.{jpg}', GLOB_BRACE);

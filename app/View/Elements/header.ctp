@@ -20,6 +20,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -30,6 +31,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->Html->css('/app/webroot/css/bootstrap');
 		echo $this->Html->css('/app/webroot/css/custom');
 		echo $this->Html->css('/app/webroot/css/booklet.latest');
+		echo $this->Html->css('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
 		echo $this->Html->script('/app/webroot/js/jquery.js');
 		echo $this->Html->script('/app/webroot/js/bootstrap.js');

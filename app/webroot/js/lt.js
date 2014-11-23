@@ -1,12 +1,19 @@
 $(document).ready(function() {
 	 $(window).scroll(function () {
-		
-		if ($(window).scrollTop() > 80) {
+		var topWindow = $(window).scrollTop(),
+			heightWindow = $(window).height(),
+			percentWindow = topWindow/heightWindow;
+
+		//console.log(percentWindow);
+
+		if (topWindow > 80) {
 		  $('.nav-top').addClass('navbar-fixed-top').removeClass('drop');
+		  $('#main').css('margin-top', '173px');
 		}
-		if ($(window).scrollTop() < 81) {
+		if (topWindow < 81) {
 		  $('.nav-top').removeClass('navbar-fixed-top');
 		  $('.nav-top').addClass('drop');
+		  $('#main').css('margin-top', '0');
 		}
 	});
    

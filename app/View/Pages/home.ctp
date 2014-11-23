@@ -5,8 +5,11 @@ endif;
 
 // echo $this->element('header');
 App::uses('Debugger', 'Utility');
+
+// December 5th 
+// 
 ?>
-<div class="container-fluid bg-circles drop" style="z-index:100;">
+<div id="main" class="container-fluid bg-circles drop" style="z-index:100;">
  <div class='row opaque'>
     <div class='col-sm-12 drop'>
       <div class='carousel slide' data-ride='carousel' id='homepageCarousel'>
@@ -15,24 +18,25 @@ App::uses('Debugger', 'Utility');
           <li class='active' data-slide-to='1' data-target='#homepageCarousel'></li>
           <li class='active' data-slide-to='2' data-target='#homepageCarousel'></li>
         </ol>
-        <div class='carousel-inner'>
+        <div style="height:auto;" class='carousel-inner'>
           <div class='item active'>
+            <img style="max-height:400px; width:auto;" alt='' src='/img/pano.png'>
+            <div class='carousel-caption'>
+              <h3>Little Tokyo near Walmart</h3>
+            </div>
+          </div>
+          <div class='item'>
            <!--  <img alt='' src='img/image_2.png'> -->
-            <img alt='' src='http://placehold.it/960x400'>
+            <img alt='' style="max-height:400px; width:auto;" src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/s960x960/10818489_856151924416419_8623894306244354937_o.jpg'>
             <div class='carousel-caption'>
-              <h3>Just saying hello</h3>
+              <h3></h3>
             </div>
           </div>
+          
           <div class='item'>
-            <img alt='' src='http://placehold.it/960x400'>
+            <img alt='' style="max-height:400px; width:auto;" src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10665860_857216954309916_8305468388082384048_n.jpg?oh=32f211e62c3c3bda7c268a456d522700&oe=551C94D9&__gda__=1427680353_2eef8856a2b14c443923a939bd803202'>
             <div class='carousel-caption'>
-              <h3>Hello Hello hellllooooooo</h3>
-            </div>
-          </div>
-          <div class='item'>
-            <img alt='' src='http://placehold.it/960x400'>
-            <div class='carousel-caption'>
-              <h3>Say goodbye i say hello</h3>
+              <h3></h3>
             </div>
           </div>
         </div>
@@ -63,32 +67,32 @@ App::uses('Debugger', 'Utility');
               <div class="panel panel-default">
                 <div class="panel-body">
                   <h2 class="uline">Specials</h2>
+                  <hr />
                   <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
                       <ul>
                         <li><h3>Monday</h3></li>
                         <ul>
-                          <li>Half Off Hibachi Chicken</li>
+                          <li>
+                            <h3> </h3>
+                            <strong>$4.99 Chicken or Vegetable Soba </strong> <br /><i>Dine in only</i>
+                          </li>
                         </ul>
                         <li><h3>Tuesday</h3></li>
                         <ul>
-                          <li>Half Off Hibachi Chicken</li>
+                          <li><strong>Half Off Select Sushi</strong></li>
                         </ul>
                         <li><h3>Wednesday</h3></li>
                         <ul>
-                          <li>Half Off Hibachi Chicken</li>
+                          <li><strong>Jumbo Wings 50 cents</strong></li>
                         </ul>
                         <li><h3>Thursday</h3></li>
                         <ul>
-                          <li>Half Off Hibachi Chicken</li>
+                          <li><strong>Half Off Select Sushi</strong></li>
                         </ul>
-                        <li><h3>Friday</h3></li>
+                        <li><h3>Friday - Sunday</h3></li>
                         <ul>
-                          <li>Half Off Hibachi Chicken</li>
-                        </ul>
-                        <li><h3>Saturday & Sunday</h3></li>
-                        <ul>
-                          <li>Half Off Hibachi Chicken</li>
+                          <li><strong>Awesome Rotating Drink Specials</strong></li>
                         </ul>
                       </ul>
                     </div>    
@@ -100,7 +104,7 @@ App::uses('Debugger', 'Utility');
             <div class="panel panel-default">
               <div class="panel-body">
                 <h2>Calendar</h2>
-                <iframe src="https://www.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=amaverify%40gmail.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+               <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=j5p27jhc2tb69a2ku99g9l73ks%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
               </div>
             </div>
           </div>

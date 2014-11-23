@@ -23,17 +23,39 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div class="container padv50">
 		<div class="row">
 			<div class="col-sm-4">
-				<ul>
-					<li><h3 class="uline">Contact Us</h3></li>
-					<li><h3>Here</h3></li>
-					<li><h3>Or Here</h3></li>
+				<address>
+				  <strong>Little Tokyo</strong> by Walmart<br>
+				  730 Leonard Ave.<br>
+				  Albemarle, NC 28001<br>
+				 <a href="tel:7049852726"> (704)985-2726 </a>
+				</address>
+			</div>
+			<div class="col-sm-4">
+				<address>
+				  <strong>Little Tokyo Lounge</strong><br>
+				  1446 Hwy 52 N<br>
+				  Albemarle, NC 28001<br>
+				<a href="tel:7049851692"> (704)985-1692 </a>
+				</address>
+			</div>
+			<div class="col-sm-4 text-right">
+				<ul class="list-inline">
+					<li>
+						<a title="Little Tokyo Lounge" href="http://facebook.com/littletokyolounge">
+							<i class="fa fa-facebook-square fa-3x"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/littletokyoalb">
+							<i class="fa fa-twitter-square fa-3x"></i>
+						</a>
+					</li>
+					<li>
+						<a title="Little Tokyo near Walmart" href="http://facebook.com/littltokyo1">
+							<i class="fa fa-facebook-square fa-3x"></i>
+						</a>
+					</li>
 				</ul>
-			</div>
-			<div class="col-sm-4">
-				
-			</div>
-			<div class="col-sm-4">
-
 			</div>					
 		</div>
 	</div>

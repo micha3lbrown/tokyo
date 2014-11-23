@@ -3,9 +3,9 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?sensor=SET_TO_TRUE_OR_FALSE">
 </script> 
-
-<div id="lt-map"></div>
-
+<div id="main">
+  <div id="lt-map"></div>
+</div>
 <script type="text/javascript">
 	var locations =[ 
     	['Little Tokyo on Leonard Ave.','35.341055','-80.177853', 2],
@@ -19,7 +19,12 @@
 
     var map = new google.maps.Map(document.getElementById('lt-map'), mapOptions);
     
+    var tokyoLoungeData = new google.maps.Marker({
+      map: map,
+      position: google.maps.LatLng(35.341055, -80.173),
+      formatted_phone_number: '3366762087'
 
+    });
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;

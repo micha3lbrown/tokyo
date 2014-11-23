@@ -2,13 +2,11 @@
   background-color: rgba(0, 0, 0, 0.5); }
 
 .drop {
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
   z-index: 99;
   position: relative; }
 
 .drop-inset {
-  -webkit-box-shadow: inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35);
   box-shadow: inset 0px -3px 10px 0px rgba(0, 0, 0, 0.35); }
 
 .leader {
@@ -27,8 +25,7 @@
   min-height: 100%;
   padding: 4em 0;
   line-height: 1.6;
-  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2; }
 
 .fixed {
