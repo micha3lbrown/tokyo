@@ -24,7 +24,7 @@ $(document).ready(function() {
 		$('#menuJpg').booklet({
 			// closed: true, 
 			width: '100%',
-			height: '100vw',
+			height: '65vw',
 			pagePadding : 0
 		});
 	
