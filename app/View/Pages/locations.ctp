@@ -15,7 +15,7 @@
         2
       ],
       [
-        '<strong>Tokyo Lounge</strong><br /> Hours: <br /> Sun-Thurs: 10am - Midnight, <br /> Fri & Sat: 10am - 2am <br> <a href="tel:7049851692"> (704)985-1692 </a>', 
+        '<strong>Tokyo Lounge</strong><br /> Hours: <br /> Sun-Tues: 10am - Midnight, <br /> Wed-Sat: 10am - 2am <br> <a href="tel:7049851692"> (704)985-1692 </a>', 
         '35.373430', 
         '-80.195943', 
         1

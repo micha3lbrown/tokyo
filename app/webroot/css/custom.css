@@ -319,7 +319,7 @@ nav {
 #homepageCarousel {
   padding: 25px 0; }
   #homepageCarousel .item img {
-    height: 400px;
+    height: 60vh;
     width: auto; }
 
 .navbar-toggle {

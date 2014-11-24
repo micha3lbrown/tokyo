@@ -57,9 +57,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<nav class="nav-top drop" role='navigation'>
 	  <div class='container'>
-	    <img class='navbar-brand' id='logo' src='app/webroot/img/WhiteLogo.jpg'>
-	      <a href='http://google.com'></a>
-	    </img>
+	  	<a href="/">
+	    	<img class='navbar-brand' id='logo' src='app/webroot/img/WhiteLogo.jpg' />
+	    </a>
 	    <div class='navbar-header'>
 	      <button class='navbar-btn navbar-toggle collapsed' data-target='#nav-main' data-toggle='collapse' type='button'>
 	        <span class='sr-only'>Toggle navigation</span>
