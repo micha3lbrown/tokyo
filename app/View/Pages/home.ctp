@@ -126,9 +126,9 @@ App::uses('Debugger', 'Utility');
 
       <div class="col-sm-4">
          <a class="twitter-timeline"  href="https://twitter.com/LittleTokyo1"  data-widget-id="385932566923984897">Tweets by @LittleTokyo1</a>
-          <div id="fb-root"></div>
+         <!--  <div id="fb-root"></div>
           <div class="fb-like-box" data-href="https://www.facebook.com/littletokyo1" data-width="360" data-height="450" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false">
-          </div>
+          </div> -->
 
       </div>
     </div>

@@ -22,12 +22,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php echo $this->Html->charset(); ?>
-	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
-	</title>
+	<title>Little Tokyo</title>
+	<link rel="icon" type="image/png" href="/img/ltfavi.png">
 	<?php
-		echo $this->Html->meta('icon');
+
 		echo $this->Html->css('/app/webroot/css/bootstrap');
 		echo $this->Html->css('/app/webroot/css/custom');
 		echo $this->Html->css('/app/webroot/css/booklet.latest');
