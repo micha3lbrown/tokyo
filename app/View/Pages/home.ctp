@@ -9,7 +9,7 @@ App::uses('Debugger', 'Utility');
 // December 5th 
 // 
 ?>
-<div id="main" class="container-fluid bg-circles drop" style="z-index:100;">
+<div id="main" class="container-fluid drop" style="z-index:100;">
  <div class='row opaque'>
     <div class='col-sm-12 drop'>
       <div class='carousel slide' data-ride='carousel' id='homepageCarousel'>
@@ -56,14 +56,13 @@ App::uses('Debugger', 'Utility');
   </div>
 </div>
 <!-- //red2-bg -->
-<div class="bg-pink">
-  <div class="container drop bg-white">
+<div>
+  <div class="container drop bg-paper">
   	<div class="row padv50">
       <div class="col-sm-8">
           
          <ul class="nav nav-tabs" role="tablist">
             <li class="active"><a href="#specials" role="tab" data-toggle="tab">Specials</a></li>
-            <li><a href="#events" role="tab" data-toggle="tab">Upcoming Events</a></li>
             <li><a href="#reviews" role="tab" data-toggle="tab">Testimonials</a></li> 
          </ul>
     
@@ -104,14 +103,6 @@ App::uses('Debugger', 'Utility');
                   </div>
                 </div>
               </div>
-          </div>
-          <div class="tab-pane" id="events">
-            <div class="panel panel-default">
-              <div class="panel-body">
-                <h2>Calendar</h2>
-               <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=j5p27jhc2tb69a2ku99g9l73ks%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-              </div>
-            </div>
           </div>
           <div class="tab-pane" id="reviews">
             <div class="panel panel-default">

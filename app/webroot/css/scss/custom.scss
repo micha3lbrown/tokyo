@@ -68,6 +68,10 @@ body{
 .bg-white{
 	background-color:$white;
 }
+.bg-paper{
+	background: url('../img/wallBg.png') !important;
+	background: repeat;
+}
 .bg-pink{
 	// background-color: $dimturq; 
 	@extend .main-bg;

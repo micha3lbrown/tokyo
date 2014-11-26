@@ -266,6 +266,10 @@ a {
 .bg-white {
   background-color: #FFF; }
 
+.bg-paper {
+  background: url('../img/wallBg.png') !important;
+  background: repeat; }
+
 .bg-pink div.container {
   margin-bottom: 10em; }
 
