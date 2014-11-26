@@ -64,8 +64,7 @@ App::uses('Debugger', 'Utility');
          <ul class="nav nav-tabs" role="tablist">
             <li class="active"><a href="#specials" role="tab" data-toggle="tab">Specials</a></li>
             <li><a href="#reviews" role="tab" data-toggle="tab">Testimonials</a></li> 
-         </ul>
-    
+         </ul>   
          <div class="tab-content">
             <div class="tab-pane active" id="specials">
               <div class="panel panel-default">
@@ -78,25 +77,67 @@ App::uses('Debugger', 'Utility');
                         <li><h3>Monday</h3></li>
                         <ul>
                           <li>
-                            <h3> </h3>
-                            <strong>$4.99 Chicken or Vegetable Soba </strong> <br /><i>Dine in only</i>
+                            <strong>$4.99 Chicken or Veggies</strong> <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Delivery all night, Open until 12:00am
                           </li>
                         </ul>
                         <li><h3>Tuesday</h3></li>
                         <ul>
-                          <li><strong>Half Off Select Sushi</strong></li>
+                          <li>
+                            <strong>Half Off Select Sushi</strong> <br />
+                            <i> (Changes monthly)</i> <br />
+                            1/2 off select Sushi 4:00pm-9:00pm <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Delivery all night, Open until 12:00am
+                          </li>
                         </ul>
-                        <li><h3>Wednesday</h3></li>
+                          <li><h3>Wednesday</h3></li>
                         <ul>
-                          <li><strong>Jumbo Wings 50 cents</strong></li>
+                          <li>
+                          <strong>Jumbo Wings 50 cents & $10 domestic buckets </strong> <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Free poker, win prizes <br />
+                            Delivery all night, Open until 2:00 am
+                          </li>
                         </ul>
                         <li><h3>Thursday</h3></li>
                         <ul>
-                          <li><strong>Half Off Select Sushi</strong></li>
+                          <li>
+                            <strong>Half Off Select Sushi</strong> <br />
+                            <i> (Changes monthly)</i> <br />
+                            1/2 off select Sushi 4:00pm-9:00pm <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Delivery all night, Open until 12:00am
+                          </li>
+                          </li>
                         </ul>
-                        <li><h3>Friday - Sunday</h3></li>
+                        <li><h3>Friday</h3></li>
                         <ul>
-                          <li><strong>Awesome Rotating Drink Specials</strong></li>
+                          <li>
+                            <strong>Awesome Rotating Drink Specials</strong> <br />
+                            DJ or live band & Drink specials <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Delivery all night, Open until 2:00am
+                          </li>
+                        </ul>
+                        <li><h3>Saturday</h3></li>
+                        <ul>
+                          <li>
+                            <strong>Awesome Rotating Drink Specials</strong> <br />
+                            DJ or live band & Drink specials <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Delivery all night, Open until 2:00am
+                          </li>
+                        </ul>
+                        <li><h3>Sunday</h3></li>
+                        <ul>
+                          <li>
+                          <strong>Jumbo Wings 50 cents & $10 domestic buckets </strong> <br />
+                            Dine in only (HWY 52 location only) <br />
+                            Free poker, win prizes <br />
+                            Delivery all night, Open until 2:00 am
+                          </li>
                         </ul>
                       </ul>
                     </div>    
