@@ -26,7 +26,7 @@ App::uses('Debugger', 'Utility');
             </div>
           </div>
           <div class='item'>
-            <img alt='' src='/img/slideshow/xmasBAnner.jpg'>
+            <img alt='' src='/img/slideshow/xmasBanner.jpg'>
             <div class='carousel-caption'>
               <h3></h3>
             </div>
