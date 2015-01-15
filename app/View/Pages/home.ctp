@@ -18,17 +18,17 @@ App::uses('Debugger', 'Utility');
           <li class='active' data-slide-to='1' data-target='#homepageCarousel'></li>
           <li class='active' data-slide-to='2' data-target='#homepageCarousel'></li>
         </ol>
-        <div style="height:auto;" class='carousel-inner'>
+        <div style="width:auto; height:100%" class='carousel-inner'>
           <div class='item active'>
-            <img alt='' src='/img/pano.png'>
+            <img alt='' src='/img/slideshow/badRomeo.jpg'>
             <div class='carousel-caption'>
-              <h3>Little Tokyo near Walmart</h3>
+              <h3 class="">Friday, Jan 30th 2014</h3>
             </div>
           </div>
           <div class='item'>
-            <img alt='' src='/img/slideshow/xmasBanner.jpg'>
+            <img alt='' src='/img/pano.png'>
             <div class='carousel-caption'>
-              <h3></h3>
+              <h3>Little Tokyo near Walmart</h3>
             </div>
           </div>
           <div class='item'>
