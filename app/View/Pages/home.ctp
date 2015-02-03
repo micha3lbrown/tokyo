@@ -20,9 +20,9 @@ App::uses('Debugger', 'Utility');
         </ol>
         <div style="width:auto; height:100%" class='carousel-inner'>
           <div class='item active'>
-            <img alt='' src='/img/slideshow/badRomeo.jpg'>
+            <img alt='' src='/img/slideshow/lt220.jpg'>
             <div class='carousel-caption'>
-              <h3 class="">Friday, Jan 30th 2014</h3>
+              <h3 class="">Friday, Feb 20th 2015</h3>
             </div>
           </div>
           <div class='item'>
@@ -33,12 +33,6 @@ App::uses('Debugger', 'Utility');
           </div>
           <div class='item'>
             <img alt='' src='/img/slideshow/ltWalmart.jpg'>
-            <div class='carousel-caption'>
-              <h3></h3>
-            </div>
-          </div>
-          <div class='item'>
-            <img alt='' src='/img/slideshow/Nye2015.jpg'>
             <div class='carousel-caption'>
               <h3></h3>
             </div>
