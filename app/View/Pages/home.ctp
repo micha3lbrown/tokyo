@@ -13,11 +13,11 @@ App::uses('Debugger', 'Utility');
  <div class='row opaque'>
     <div class='col-sm-12 drop'>
       <div class='carousel slide' data-ride='carousel' id='homepageCarousel'>
-        <ol class='carousel-indicators'>
+       <!--  <ol class='carousel-indicators'>
           <li class='active' data-slide-to='0' data-target='#homepageCarousel'></li>
           <li class='active' data-slide-to='1' data-target='#homepageCarousel'></li>
           <li class='active' data-slide-to='2' data-target='#homepageCarousel'></li>
-        </ol>
+        </ol> -->
         <div style="width:auto; height:100%" class='carousel-inner'>
           <div class='item active'>
             <img alt='' src='/img/slideshow/lt220.jpg'>
@@ -26,16 +26,24 @@ App::uses('Debugger', 'Utility');
             </div>
           </div>
           <div class='item'>
-            <img alt='' src='/img/pano.png'>
+            <img alt='' src='/img/slideshow/ltdrinks.jpg'>
             <div class='carousel-caption'>
-              <h3>Little Tokyo near Walmart</h3>
             </div>
           </div>
           <div class='item'>
-            <img alt='' src='/img/slideshow/ltWalmart.jpg'>
-            <div class='carousel-caption'>
-              <h3></h3>
-            </div>
+            <img alt='' src='/img/slideshow/ltparty.jpg'>
+          </div>
+          <div class='item'>
+            <img alt='' src='/img/slideshow/ltfooddrink.jpg'>
+          </div>
+          <div class='item'>
+            <img alt='' src='/img/slideshow/ltfacebook.jpg'>
+          </div>
+          <div class='item'>
+            <img alt='' src='/img/slideshow/ltsushi.jpg'>
+          </div>
+          <div class='item'>
+            <img alt='' src='/img/slideshow/lttoon.jpg'>
           </div>
         </div>
       </div>
