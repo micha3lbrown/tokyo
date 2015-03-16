@@ -13,25 +13,22 @@ App::uses('Debugger', 'Utility');
  <div class='row opaque'>
     <div class='col-sm-12 drop'>
       <div class='carousel slide' data-ride='carousel' id='homepageCarousel'>
-       <!--  <ol class='carousel-indicators'>
-          <li class='active' data-slide-to='0' data-target='#homepageCarousel'></li>
-          <li class='active' data-slide-to='1' data-target='#homepageCarousel'></li>
-          <li class='active' data-slide-to='2' data-target='#homepageCarousel'></li>
-        </ol> -->
         <div style="width:auto; height:100%" class='carousel-inner'>
           <div class='item active'>
-            <img alt='' src='/img/slideshow/lt220.jpg'>
+            <img alt='' class="img-responsive" src='/img/slideshow/liveband.jpg'>
+            <h3 class="">Friday, March 20th 2015</h3>
+          </div>
+          <div class='item'>
+            <img alt='' src='/img/slideshow/littlebetty.jpg'>
             <div class='carousel-caption'>
-              <h3 class="">Friday, Feb 20th 2015</h3>
+              <h3 class="">Friday, March 21st 2015</h3>
             </div>
+          </div>
+          <div class='item'>
+            <img alt='' src='/img/slideshow/marchSpecials.jpg'>
           </div>
           <div class='item'>
             <img alt='' src='/img/slideshow/ltdrinks.jpg'>
-            <div class='carousel-caption'>
-            </div>
-          </div>
-          <div class='item'>
-            <img alt='' src='/img/slideshow/ltparty.jpg'>
           </div>
           <div class='item'>
             <img alt='' src='/img/slideshow/ltfooddrink.jpg'>
