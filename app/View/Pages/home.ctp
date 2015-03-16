@@ -21,7 +21,7 @@ App::uses('Debugger', 'Utility');
           <div class='item'>
             <img alt='' src='/img/slideshow/littlebetty.jpg'>
             <div class='carousel-caption'>
-              <h3 class="">Friday, March 21st 2015</h3>
+              <h3 class="">Saturday, March 21st 2015</h3>
             </div>
           </div>
           <div class='item'>
